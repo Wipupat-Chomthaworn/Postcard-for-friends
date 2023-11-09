@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/Users/wipupat/Downloads/capy font.jpeg"
+    />
+    <title>Halis Capybara</title>
+  </head>
+  <body>
+    <h3>Hi there!!!</h3>
+    I mean Dear Halis.<br />
+    I hope this email(postcard) finds you well<br />
+    I heard that you have arrived to Osaka🤩<br />
+    the things is I cant manage to buy a ticket and<br />
+    rent?(i mean ahh reserve?🤨) a hotel in time<br />
+    😣 sry for that.<br />
+    Anyway I hope you doing well and enjoy your inturn at Osaka :3<br />
+    and pls send me some views(slight seeings) Environment?<br />
+    Hope you like this capybara postcard.<br />
+
+    <img
+      style="transform: scaleX(-1)"
+      src="./capy with glasses.png"
+      alt=""
+    />
+    <img
+      class="postcard-img2"
+      src="./capy with glasses.png"
+      alt=""
+    />
+
+    <!-- <img class="postcard-img" src="/Users/wipupat/Downloads/capy with glasses.png" alt=""> -->
+  </body>
+  <style type="text/css">
+    body {
+      justify-content: center;
+      margin: 20em;
+    }
+    .postcard-img {
+      /* position: absolute;
+            bottom: 0;
+            left: 0; */
+      animation: rotateImage 5s linear infinite;
+    }
+    .postcard-img2 {
+      position: absolute;
+      transform: scaleX(-1);
+      bottom: 0;
+      right: 0;
+      animation: rotateImage2 1.8s ease-in-out infinite;
+    }
+
+    @keyframes rotateImage {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    @keyframes rotateImage2 {
+      0% {
+        transform: rotate(0deg), scaleX(-1);
+      }
+      50% {
+        transform: rotate(60deg);
+      }
+      100% {
+        transform: rotate(0deg), scaleX(-1);
+      }
+    }
+  </style>
+</html>
